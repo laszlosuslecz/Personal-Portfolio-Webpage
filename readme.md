@@ -1,8 +1,8 @@
-# Personal Portfolio Site
+# Personal Portfolio Webpage
 
 Work in Progress.
 
-My personal responsive portfolio website. 
+My personal responsive portfolio webpage. 
 
 ### Tech used
 
