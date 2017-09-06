@@ -1,0 +1,125 @@
+@media (max-width: 800px) {
+  .skills {
+    flex: 1 1 50%; } }
+html {
+  box-sizing: border-box;
+  font: 12px "Raleway", sans-serif;
+  min-height: 100% !important; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100% !important;
+  display: flex;
+  flex-direction: column; }
+
+/*----header/navbar area----*/
+.navbar {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  list-style: none;
+  align-items: center;
+  background-color: #696969; }
+  .navbar .navbar-e {
+    flex: 2; }
+  .navbar .social {
+    flex: 1; }
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  .navbar a:hover {
+    background-color: lightskyblue; }
+  .navbar i {
+    display: block;
+    font-size: 2rem;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+/*----Main content area----*/
+.main-content {
+  display: flex;
+  flex-direction: column; }
+
+.image-box {
+  flex: 1; }
+
+.main-img {
+  display: block;
+  min-width: 90%;
+  max-width: 90% !important;
+  margin: 0 auto;
+  height: auto; }
+
+.text-box {
+  width: 80%;
+  margin: 0 auto;
+  flex: 1;
+  padding-top: 20px; }
+
+.skills-flex-container {
+  display: flex;
+  flex-direction: raw;
+  flex-wrap: wrap;
+  height: 30%; }
+
+.skills {
+  margin-right: 20px;
+  width: calc((100% - 40px) / 3);
+  padding: 20px 0px; }
+  .skills h3 {
+    text-align: center;
+    color: lightskyblue;
+    font-size: 40px; }
+  .skills .quote {
+    text-align: center;
+    font: 24px "Roboto", sans-serif;
+    padding-top: 30px; }
+    .skills .quote .author {
+      font-size: 14px; }
+
+.skills:last-of-type {
+  margin-right: 0px; }
+
+.about-box {
+  width: 90%;
+  margin: 0 auto;
+  flex: 1;
+  padding-top: 30px;
+  background-color: lightskyblue; }
+  .about-box p {
+    font: 14px "Roboto", sans-serif;
+    color: #696969;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    vertical-align: middle;
+    line-height: 1.5rem; }
+  .about-box p:first-of-type {
+    padding-top: 5px; }
+  .about-box .img {
+    float: left;
+    padding-top: 5px;
+    margin: 0px 10px 5px 5px;
+    background-color: #696969; }
+
+/*----Footer----*/
+footer {
+  background-color: #696969; }
+  footer p {
+    padding: 5px;
+    font-size: 8px;
+    text-align: center;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
